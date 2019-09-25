@@ -130,7 +130,7 @@
   position: relative;
   box-shadow: 0 0 7px -5px;
   border-radius: 6px;
-  padding: 0 47px;
+  padding: 0 20px;
   margin: 10px 0;
   display: grid;
     align-items: center;
@@ -141,7 +141,7 @@
   height: auto;
 }
 i.fa.fa-map-marker {
-  left: -30px;
+  left: -15px;
 }
 }    
   /* Extra large devices (large laptops and desktops, 1200px and up) */
