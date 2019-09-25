@@ -1,0 +1,374 @@
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+}
+::-moz-selection {
+  color: white;
+  background: #5f5f59;
+}
+::selection {
+  color: white;
+  background: #5f5f59;
+}
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; }
+   }
+
+   @media (max-width: 375px) {
+    #navbarSupportedContent {     
+      z-index: 123 !important;
+      background: #000000f0 !important;
+  }
+     }
+  
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #929FBA; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #929FBA; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+
+
+  .loginButton{
+    padding: 5px 15px;
+    font-weight: 600;
+    letter-spacing: 1.9px;
+  }
+  ul.navbar-nav.mr-auto a {
+    font-weight: 600;
+    font-size: .96rem;
+}
+.topnavimg img{
+  width: 60%;
+}
+.tophearderText {
+  position: relative;
+  top: 14px;
+  left: -37px;
+}
+.tophearderText h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.tophearderText h6 {
+  font-size: 1.6rem !important;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.rightImg.pull-right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 63%;
+  position: relative;
+  top: -3px;
+}
+div#navbarSupportedContent {
+  position: relative;
+  top: 11px;
+}
+.navbar {
+  background-color: #2c003c;
+  height: 60px;
+}
+.white-text.mx-5.wow.fadeIn.animated {
+  background: #000000bf;
+  height: 139px;
+  padding: 26px;
+  position: relative;
+  top: -20px;
+
+}
+ 
+.container-fluid.ministerViewOntainer {
+    background: #6610f2;
+    margin: 10px 0;
+}
+
+
+.ministerViewOntainer p {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #fff;
+  position: relative;
+  top: -3%;
+  margin-left: -135px;
+  padding: 41px;
+}
+
+ul.navbar-nav.mr-auto li {
+  margin: 0 10px;
+}
+.btn-secondary {
+  background-color:#871a3b!important
+}
+.cardforcounter img{
+  width: 60%;
+  border-radius: 64%;
+}
+.cardforcounter h6 {
+  position: relative;
+  top: -13px;
+  font-weight: 500;
+}
+.cardforcounter.text-center {
+  background: #eee;
+  height: 166px;
+  padding: 5px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0 0 7px -3px;
+          box-shadow: 0 0 7px -3px;
+}
+ 
+ .EPGC h4 {
+  font-weight: normal;
+  margin: 19px 0 25px 0;
+}
+ .Events h4{
+  font-weight: normal;
+  margin: 19px 0 25px 0;
+ }
+ .MV1{ 
+  background: #007bff;
+ }
+ .MV2{
+   background: #7a00ff;
+ }
+ .MV3{
+   background: #1fa047;
+ }
+ .MV4{
+   background: #750c6d;
+ }
+ .ministerViewOntainer img{
+  width: 62%;
+  margin: 38px;
+  border: 9px solid #214c7a4f;
+  border-radius: 20px;
+  position: relative;
+  top: 6px;
+ }
+ .InfographicsContainer {
+  position: relative;
+  top: 3%;
+}
+
+.mms{
+  margin-bottom: -9%;
+    font-size: 2rem !important;
+    font-weight: 500;
+}
+.ministerName p {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -30px;
+  
+  text-align: center;
+  font-size: .9rem;
+  left: -40px;
+}
+.keyNotes{
+  font-weight: 500;
+  color: #3c3939;
+  margin-bottom: -28px;
+  position: relative;
+  top: -39px;
+}
+.keyNotes h4, .Infographics h4 {
+  font-weight: normal;
+}
+
+
+.infograficdiv p {
+  font-weight: 600;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background: #003670;
+  padding: 17px;
+  border-radius: 20px;
+ }
+ .Voice h4 {
+  color: #fff;
+  font-weight: normal;
+  padding: 10px 0 0 0;
+}
+.Voice p {
+  color: #fff;
+}
+.video-text-col p {
+  color: #fff;
+  font-weight: 200;
+  background: #000000cf;
+  padding: 22px;
+}
+.videoSlider {
+  position: relative;
+  top: 37px;
+  background: #420759;
+}
+.video-text-col p:before {
+  content: "\A";
+  border-style: solid;
+  border-width: 35px 20px 34px 0px  ;
+  border-color: transparent #09020c transparent transparent;
+  position: absolute;
+  left: 0px;
+  top: 28%;
+}
+.footerContainer {
+  position: relative;
+  top: 37px;
+  background: #2c003c;
+  -webkit-box-shadow: 0 0 14px 1px #000;
+          box-shadow: 0 0 14px 1px #000
+}
+.footerContainer ul{
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerContainer ul li {
+  padding: 10px 0;
+  position: relative;
+  top: 12px;
+  margin: 0 12px;
+}
+#carouselExampleIndicators>.carousel-indicators {
+  position: absolute;
+  top: 80%;
+}
+.videoSlider .carousel {
+  height: 45vh !important;
+}
+/* .counterContainer{
+  background: #eee;
+} */
+
+.About {
+  margin-top: 20px;
+}
+.contantCard {
+  background: #1adc8ae8;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 17px -7px;
+  text-align: center;
+  height: 90px;
+  color: #fff;
+}
+.contantCard p {
+  font-weight: 600;
+}
+.secColumn p {
+  margin:0  100px 0 100px;
+  
+}
+section.abooutScrion2 {
+  margin-top: 30px;
+}
+.imgCOlm img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 600px;
+  height: 224px;
+}
+.aboutCustomeCol {
+  box-shadow: 0px 0px 5px -4px;
+  margin: 16px 0;
+  padding: 5px 0;
+  border-radius: 14px;
+}
+.AboutTopFOt {
+  background: #767676;
+  margin-top: 30px;
+  margin-bottom: -9px;
+  border-radius: 5px;
+}
+.AboutTopFOt h5{
+  color: #fff;
+  margin-bottom: 0;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.newdelhi1stComumn {
+  margin-top: 30px;
+}
+ 
+.Print {
+  position: relative;
+  top: -15px;
+}
+
+.filterButton {
+    background: #fff;
+    border: 2px solid #007bff;
+    margin: 30px 0;
+    padding: 2px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px -2px;
+    font-weight: bold;
+}
+.row.filterRow {
+  box-shadow: 0 0 3px -1px;
+  padding: 20px 0;
+  position: relative;
+  top: -24px;
+  border-radius: 10px;
+}
+/* .ApplyButton {
+  padding: 2px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px;
+}
+.Skip {
+  padding: 0px 37px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px;
+} */
+/* .row.listName {
+  background: #eee;
+  padding: 15px 0;
+  margin: 30px 0;
+} */

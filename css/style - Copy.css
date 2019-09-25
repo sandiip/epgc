@@ -1,0 +1,312 @@
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+}
+::-moz-selection {
+  color: white;
+  background: #5f5f59;
+}
+::selection {
+  color: white;
+  background: #5f5f59;
+}
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; }
+   }
+
+   @media (max-width: 375px) {
+    #navbarSupportedContent {     
+      z-index: 123 !important;
+      background: #000000f0 !important;
+  }
+     }
+  
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #929FBA; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #929FBA; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+
+
+  .loginButton{
+    padding: 5px 15px;
+    font-weight: 600;
+    letter-spacing: 1.9px;
+  }
+  ul.navbar-nav.mr-auto a {
+    font-weight: 600;
+    font-size: .96rem;
+}
+.topnavimg img{
+  width: 60%;
+}
+.tophearderText {
+  position: relative;
+  top: 14px;
+  left: -37px;
+}
+.tophearderText h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.tophearderText h6 {
+  font-size: 1.6rem !important;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.rightImg.pull-right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 63%;
+  position: relative;
+  top: -3px;
+}
+div#navbarSupportedContent {
+  position: relative;
+  top: 11px;
+}
+.navbar {
+  background-color: #2c003c;
+  height: 60px;
+}
+.white-text.mx-5.wow.fadeIn.animated {
+  background: #000000bf;
+  height: 139px;
+  padding: 26px;
+  position: relative;
+  top: -20px;
+
+}
+/* .ministerViewOntainer, .additionalViewOntainer, .counterContainer{
+  position: relative;
+  top: 30%;
+} */
+.ministerViewOntainer p {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #fff;
+  position: relative;
+  top: -3%;
+  margin-left: -135px;
+  padding: 41px;
+}
+
+ul.navbar-nav.mr-auto li {
+  margin: 0 10px;
+}
+.btn-secondary {
+  background-color:#871a3b!important
+}
+.cardforcounter img{
+  width: 60%;
+  border-radius: 64%;
+}
+.cardforcounter h6 {
+  position: relative;
+  top: -13px;
+  font-weight: 500;
+}
+.cardforcounter.text-center {
+  background: #eee;
+  height: 166px;
+  padding: 5px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0 0 7px -3px;
+          box-shadow: 0 0 7px -3px;
+}
+.counterContainer {
+  /* position: relative;
+  top: 60px; */
+  margin-bottom: -72px;
+}
+.additionalViewOntainer {
+  position: relative;
+  top: 195px;
+}
+ .EPGC h4 {
+  font-weight: normal;
+  margin: 19px 0 25px 0;
+}
+ .Events h4{
+  font-weight: normal;
+  margin: 19px 0 25px 0;
+ }
+ .ministerViewOntainer{
+  position: relative;
+  /* top: 44%; */
+  background: #007bff;
+ }
+ .ministerViewOntainer img{
+  width: 62%;
+  margin: 38px;
+  border: 9px solid #214c7a4f;
+  border-radius: 20px;
+  position: relative;
+  top: 6px;
+ }
+ .InfographicsContainer {
+  position: relative;
+  top: 48%;
+}
+
+.mms{
+  margin-bottom: -9%;
+    font-size: 2rem !important;
+    font-weight: 500;
+}
+.ministerName p {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -30px;
+  
+  text-align: center;
+  font-size: .9rem;
+  left: -40px;
+}
+.keyNotes{
+  font-weight: 500;
+  color: #3c3939;
+  margin-bottom: -28px;
+  position: relative;
+  top: -39px;
+}
+.keyNotes h4, .Infographics h4 {
+  font-weight: normal;
+}
+
+
+.infograficdiv p {
+  font-weight: 600;
+}
+.videoSlider {
+  position: relative;
+  top: 225px;
+  background: #420759;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background: #003670;
+  padding: 17px;
+  border-radius: 20px;
+ }
+ .Voice h4 {
+  color: #fff;
+  font-weight: normal;
+  padding: 10px 0 0 0;
+}
+.Voice p {
+  color: #fff;
+}
+.video-text-col p {
+  color: #fff;
+  font-weight: 200;
+  background: #000000cf;
+  padding: 22px;
+}
+ 
+.video-text-col p:before {
+  content: "\A";
+  border-style: solid;
+  border-width: 35px 20px 34px 0px  ;
+  border-color: transparent #09020c transparent transparent;
+  position: absolute;
+  left: 0px;
+  top: 28%;
+}
+.footerContainer {
+  position: relative;
+  top: 200px;
+  background: #2c003c;
+  -webkit-box-shadow: 0 0 14px 1px #000;
+          box-shadow: 0 0 14px 1px #000
+}
+.footerContainer ul{
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerContainer ul li {
+  padding: 10px 0;
+  position: relative;
+  top: 12px;
+  margin: 0 12px;
+}
+#carouselExampleIndicators>.carousel-indicators {
+  position: absolute;
+  top: 80%;
+}
+.videoSlider .carousel {
+  height: 45vh !important;
+}
+/* .counterContainer{
+  background: #eee;
+} */
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerContainer ul {
+  display: block !important;    
+}
+.videoSlider .carousel {
+  height: 83vh !important;
+  margin-bottom: -47px !important;
+}
+.videoSlider {
+  position: relative;
+  top: 382px !important;
+   
+}
+.cardforcounter.text-center {   
+  margin: 10px 0;
+}
+.ministerViewOntainer p {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #fff;
+  position: relative;
+  top: -7%;
+  margin-left: -19px;
+  padding: 41px;
+}
+.additionalViewOntainer {
+  position: relative;
+  top: 365px;
+}
+}

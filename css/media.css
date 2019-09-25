@@ -1,0 +1,171 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+ 
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+ 
+ 
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #929FBA !important;
+    }
+  }
+
+  /* ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px */
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+  .topnavimg img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tophearderText {
+  position: relative;
+  top: 14px;
+  left: 0;
+  box-shadow: 0 0 8px -4px;
+  border-radius: 8px;
+  padding: 10px;
+  margin: -11px 0 30px 0;
+}
+.cardforcounter img {
+  height: 106px !important;
+  width: 106px !important;
+}
+.rightImg.pull-right {
+  display: none;
+}
+  div#navbarSupportedContent {
+    position: relative;
+    top: 11px;
+    z-index: 1200;
+    background: #0b0909fc;
+  }
+  #modalLoginForm {
+    z-index: 1200;
+}
+.aboutCustomeCol {
+  box-shadow: 0px 0px 5px -4px;
+  margin: 16px 0;
+  padding: 5px 0;
+  border-radius: 14px;
+  margin: 10px;
+}
+.secColumn {
+  padding: 0 20px;
+}
+  .footerContainer ul {
+  display: contents !important;    
+}
+.footerContainer ul li img {
+  padding: 4px;
+  margin: 2px;
+}
+.videoSlider .carousel {
+  height: 83vh !important;
+  margin-bottom: -47px !important;
+}
+.videoSlider {
+  position: relative;
+  top: 37px !important;
+   
+}
+.videoSlider {
+  position: relative;
+  top: 225px;
+  background: #420759;
+}
+.cardforcounter.text-center {   
+  margin: 10px 0;
+}
+.ministerViewOntainer p {
+  font-size: 1.1rem;
+  /* text-align: justify; */
+  color: #fff;
+  position: relative;
+  /* top: -7%; */
+  margin-left: -19px;
+  /* padding: 41px; */
+}
+.card-wrapper {
+  margin: 10px 0;
+}
+.infograficdiv img {
+  width: 100% !important;
+}
+/* .additionalViewOntainer {
+  position: relative;
+  top: 365px;
+} */
+.contantCard {   
+    margin: 35px 0 -11px 0;
+    height: auto;
+}
+.secColumn p {
+    margin: 0;
+}
+}    
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1920px) {
+    ul.navbar-nav.mr-auto a {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    p.ministerText {
+        font-size: 1.8rem;
+        margin-top: 25px;
+        font-weight: 200;
+    }
+    .mms {        
+        font-size: 3rem !important; 
+    }
+    .ministerName p {
+        font-size: 1.4rem;
+        left: -12%;
+    }
+    .EPGC h4, .Events h4, .Infographics h4, .About h4 {        
+        font-size: 3rem !important;
+    }
+    .Infographics p{
+        font-size: 2rem;
+    }
+    .carousel-about {
+        width: 100%;
+    }
+    .contantCard p {
+        font-size: 2rem;
+    }
+    .contantCard {   
+        margin: 35px 0 -11px 0;
+        height: 204px;
+    }
+    .secColumn p {
+        font-size: 1.5rem;
+        margin: 100px;
+    }
+    .newdelhi1stComumn h4 {
+        font-size: 3rem;
+    }
+    .filterButton{
+      font-size: 2rem;
+    }
+}
