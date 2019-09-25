@@ -125,7 +125,7 @@
 }
 .ContactCOl {
   border: 1px solid #eee;
-  height: 93px;
+  height: 141px;
   text-align: center;
   position: relative;
   box-shadow: 0 0 7px -5px;
@@ -139,6 +139,9 @@
   padding: .5rem 1rem;
   border-left: .25rem solid #eceeef;
   height: auto;
+}
+i.fa.fa-map-marker {
+  left: -30px;
 }
 }    
   /* Extra large devices (large laptops and desktops, 1200px and up) */
