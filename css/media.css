@@ -123,6 +123,23 @@
 .secColumn p {
     margin: 0;
 }
+.ContactCOl {
+  border: 1px solid #eee;
+  height: 93px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 7px -5px;
+  border-radius: 6px;
+  padding: 0 47px;
+  margin: 10px 0;
+  display: grid;
+    align-items: center;
+}
+.blockquotess {
+  padding: .5rem 1rem;
+  border-left: .25rem solid #eceeef;
+  height: auto;
+}
 }    
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1920px) {

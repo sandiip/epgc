@@ -372,3 +372,34 @@ section.abooutScrion2 {
   padding: 15px 0;
   margin: 30px 0;
 } */
+
+.ContactCOl {
+  border: 1px solid #eee;
+  height: 93px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 7px -5px;
+  border-radius: 6px;
+  padding: 0 47px;
+  display: grid;
+    align-items: center;
+}
+.blockquotess {
+  padding: .5rem 1rem;
+  border-left: .25rem solid #eceeef;
+  height: 100px;
+}
+.blockquotess p {
+  padding: 1.3rem 0px;
+  font-size: 1.1rem;
+  background: #eee;
+  margin: -7px -15px;
+}
+.blockquotess .blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+  background: #bebdbd6b;
+  margin: 0 -15px;
+}
+
